@@ -1,11 +1,17 @@
 <template>
-  <mainPage></mainPage>
+  <headerPage></headerPage>
+  <searchPage></searchPage>
+  <menuPage></menuPage>
 </template>
 <script>
-import mainPage from "./components/mainPage.vue";
+import headerPage from "./components/headerPage.vue";
+import searchPage from './components/searchPage.vue';
+import menuPage from "./components/menuPage.vue";
 export default {
   components: {
-    mainPage,
+    headerPage,
+    searchPage,
+    menuPage
   },
 };
 </script>

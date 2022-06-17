@@ -1,0 +1,38 @@
+#mainMenu ul {
+    display: flex;
+    color: white;
+    height: 4vh;
+    width:70%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+#mainMenu{
+    width: 100vw;
+    background-color: red;
+}
+#asideMenu{
+    background-color: gray;
+    color: black;
+}
+#asideMenu ul li{
+    margin: 10px 0;
+}
+#navigation{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: grey;
+}
+#rotation{
+    position: absolute;
+    left: 20%;
+}
+.arrow{
+    font-size: 30px;
+    border: 2px solid orange;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
