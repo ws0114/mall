@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="total-comp">
     <div id="mainMenu">
       <ul>
         <li id="hello">商品分类</li>
@@ -27,14 +27,17 @@
           <li>汽车</li>
         </ul>
       </div>
-      <div id="rotation">
-        <img src="../assets/photo/1.jpg" alt="" />
-        <button class="arrow">
-          <i class="fas fa-arrow-right"></i>
-        </button>
-      </div>
+      <rotation></rotation>
     </div>
   </div>
 </template>
 <style src="../assets/css/menuPage.css" scoped>
 </style>
+<script>
+import rotation from "../reuseComp/rotation.vue";
+export default {
+  components: {
+   rotation
+  },
+};
+</script>

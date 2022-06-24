@@ -1,0 +1,11 @@
+#title{
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+}
+#main{
+    height: 5vh;
+    position: relative;
+}

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import mainPage from "../components/menuPage.vue"
+import mainPage from "../mainComp/menuPage.vue"
 const routerHistory = createWebHistory()
 const router = createRouter({
     history: routerHistory,
